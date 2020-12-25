@@ -32,4 +32,4 @@
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
-cmd /k "cd /d C:\Users\abbas\Desktop\PLVTIProject\PLVTIPROJECT-1\venv\Scripts & activate & cd /d    C:\Users\abbas\Desktop\PLVTIProject\PLVTIPROJECT-1 & python manage.py runserver 0.0.0.0:8687"
+cmd /k "cd /d C:\Projects\PLVTIPROJECT-1\venv\Scripts & activate & cd /d   C:\Projects\PLVTIPROJECT-1 & python manage.py runserver 0.0.0.0:8687"
