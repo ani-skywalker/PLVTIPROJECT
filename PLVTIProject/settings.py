@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'jinja2',
     'captcha',
     'zeep',
+    'contextlib',
 
 ]
 RECAPTCHA_PUBLIC_KEY = '6Lci9fAZAAAAAILZqsHzf2vqe5DhsbuG8zMKBULo'
