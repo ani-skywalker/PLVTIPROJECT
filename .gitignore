@@ -1,3 +1,6 @@
 *.pyc
+*.pyc
 .pyc
-!WebSite/__pycache__/*git
+WebSite/__pycache__/*
+WebSite/__pycache__/*
+PLVTIProject/__pycache__/*
