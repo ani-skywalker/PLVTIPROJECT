@@ -38,7 +38,7 @@ def logout_view(request):
     return redirect('WebSite:login')
 
 
-forms = {'productsForm': productsForm, 'productsFormUpdate': productsFormUpdate, 'productsgroupsform': productsgroupsform, 'productsgroupsFormUpdate': productsgroupsFormUpdate, 'productsbrandsform': productsbrandsform,
+forms = {'productsFormUpdate': productsFormUpdate, 'productsgroupsform': productsgroupsform, 'productsgroupsFormUpdate': productsgroupsFormUpdate, 'productsbrandsform': productsbrandsform,
          'productsbrandsUpdate': productsbrandsUpdate, 'costForm': costForm, 'costFormUpdate': costFormUpdate, 'userinfocreate': userinfocreate, 'userinfoupdate': userinfoupdate, 'formslidercreate': formslidercreate, 'formsliderupdate': formsliderupdate,
          'firstpagebanersform': firstpagebanersform, 'firstpagebanersFormUpdate': firstpagebanersFormUpdate, 'aboutusForm': aboutusForm, 'aboutusFormUpdate': aboutusFormUpdate, 'centercontactusForm': centercontactusForm, 'centercontactusFormUpdate': centercontactusFormUpdate,
          'salecontactusForm': salecontactusForm, 'salecontactusFormUpdate': salecontactusFormUpdate, 'customerquestionsForm': customerquestionsForm, 'customerquestionsFormUpdate': customerquestionsFormUpdate, 'aboutusp1Form': aboutusp1Form, 'aboutusp1FormUpdate': aboutusp1FormUpdate,
