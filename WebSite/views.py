@@ -30,7 +30,22 @@ import string
 import requests
 from zeep import Client
 # Just For Logout Of WebSite.
+from enum import Enum
 
+
+class BaseEnum(Enum):
+
+    def __init__(self, int_value, str_value):
+        self._value_ = int_value
+        self.str_value = str_value
+
+    def __eq__(self, other):
+        return other == self.value or other == self.str_value
+
+
+class MyEnum(BaseEnum):
+    TRUE = 0, 'True'
+    FALSE = 1, 'False'
 
 
 def logout_view(request):
